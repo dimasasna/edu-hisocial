@@ -60,7 +60,7 @@
 
 </nav>
 <div
-    class="nav-menu fixed w-screen h-[250px] lg:hidden left-0 right-0 -top-[100vh] px-6 py-4 bg-white z-40 opacity-40 transition-all duration-700 shadow-2xl">
+    class="nav-menu fixed w-screen h-[250px] lg:hidden left-0 right-0 -top-[100vh] px-6 py-4 bg-white z-40 opacity-40 transition-all duration-900 shadow-2xl">
     <ul class="font-normal space-y-2">
         <li class="pb-2  hover:text-gray-400   hover:border-b-gray-300">
             <a href="/">Home</a>

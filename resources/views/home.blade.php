@@ -180,19 +180,20 @@
     <!-- End Other Service -->
 
     <!-- Our Success Project BabyKid-->
-    <section class="max-w-[1215px] h-full mx-auto mt-4 px-4 lg:px-0">
+    <section class="max-w-[1215px] h-full mx-auto mt-10 px-4 lg:px-0">
+        <div class="flex flex-col lg:flex-row justify-between px-2 lg:px-0 mb-4 lg:mb-8 items-center">
+            <h1 class="text-[38px] lg:text-[50px] text-[#012840] leading-none font-medium">Our Success Project</h1>
+            <button
+                class="bg-[#008FFF] hover:bg-blue-600 text-white px-12 rounded-full lg:mr-2 mr-0 text-[18px] h-[52px] hidden lg:block">Explore
+                More +</button>
+        </div>
         <div class="flex flex-col lg:flex-row">
             <div class="lg:w-[52%] w-full">
-                <div class="flex items-center">
-                    <div class="w-[156px] h-1 bg-[#008FFF] me-5"></div>
-                    <h1 class="text-[32px] text-[#008FFF] font-bold">BabyKid</h1>
-                </div>
-                <h1 class="text-[32px] lg:text-[65px] text-[#002B44]">Our Success Project</h1>
+                <h1 class="text-[32px] lg:text-[65px] text-[#008FFF]">BabyKid</h1>
                 <p class="lg:text-[20px] -tracking-tight opacity-70 text-justify">we do more than just organize social media
                     management. We ensure our services are professional and our client's delight is our goal. Our
                     success in working with Babykid, be one of the successful clients we have assisted.</p>
                 <div class="mt-6">
-                    <h1 class="text-[32px] text-[#002B44]">Project Statistic</h1>
                     <div
                         class="bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] mt-4 w-full h-full flex flex-row-3 justify-center items-center text-center p-6 rounded-[20px] divide-x-2">
                         <div class="flex flex-col justify-center items-center px-2">
@@ -214,23 +215,50 @@
                 </div>
             </div>
             <div class="lg:w-[48%] w-full flex justify-center lg:justify-end mt-4">
-                <img class="relative z-0 object-none" src="assets/img/babykid-poster1.png" alt="">
-                <img class="absolute z-10 mr-28 mt-8 hidden lg:block" src="assets/img/babykid-poster2.png" alt="">
-                <div class="bg-white w-[430px] h-auto shadow-[0_3px_10px_rgb(0,0,0,0.2)] absolute z-10 mt-[420px] mr-4 rounded-[15px] p-4 hidden lg:block">
-                    <div class="flex flex-row">
-                        <img  src="assets/img/profil-babykid.png" alt="">
-                        <div class="ml-4">
-                            <h1 class="font-bold">Silvia</h1>
-                            <p class="leading-relaxed text-[10px] opacity-60">Collaborating with HiSocial is a wonderful opportunity for which we are thankful,  Your ability to shape our online brand presence, engage with our audience, and drive growth has been impressive. Keep up the excellent work.</p>
+                <img class="h-[472px] w-[472px]" src="assets/img/babykid.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- End Our Success Project BabyKid-->
+
+    <!-- Our Success Project Furniture-->
+    <section class="max-w-[1215px] h-full mx-auto mt-4 px-4 lg:px-0 lg:mb-14">
+        <div class="flex flex-col-reverse lg:flex-row">
+            <div class="lg:w-[48%] w-full">
+                <img src="assets/img/furniture.png" alt="">
+            </div>
+            <div class="lg:w-[52%] w-full flex flex-col  justify-center lg:justify-start mt-4">
+                <h1 class="text-[32px] lg:text-[65px] text-[#008FFF]">Creative Furniture</h1>
+                <p class="lg:text-[20px] -tracking-tight opacity-70 text-justify">Creative Furniture’s commitment is accessibility without compromising on quality. The website acts as a portal to a realm where affordability goes hand in hand with elegance, making sophisticated living spaces accessible to all.</p>
+                <div class="mt-6">
+                    <div
+                        class="bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] mt-4 w-full h-full flex flex-row-3 justify-center items-center text-center p-6 rounded-[20px] divide-x-2">
+                        <div class="flex flex-col justify-center items-center px-2">
+                            <img class="w-12" src="assets/icons/furniture1.svg" alt="">
+                            <h1 class="text-[20px] lg:text-[32px] text-[#002B44] mt-2 font-bold">7.731</h1>
+                            <p class="text-[14px] lg:text-[16px]">Increase Account Reached</p>
+                        </div>
+                        <div class="flex flex-col justify-center items-center px-2">
+                            <img class="w-12" src="assets/icons/furniture2.svg" alt="">
+                            <h1 class="text-[20px] lg:text-[32px] text-[#002B44] mt-2 font-bold">552</h1>
+                            <p class="text-[14px] lg:text-[16px]">Increase Profile Visited</p>
+                        </div>
+                        <div class="flex flex-col justify-center items-center px-2">
+                            <img class="w-12" src="assets/icons/furniture3.svg" alt="">
+                            <h1 class="text-[20px] lg:text-[32px] text-[#002B44] mt-2 font-bold">138</h1>
+                            <p class="text-[14px] lg:text-[16px]">Increase New Likes & Follow</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <button
+            class="bg-[#008FFF] hover:bg-blue-600 text-white px-12 rounded-[10px] w-full mt-4 text-[18px] h-[52px] lg:hidden">Explore
+            More +</button>
     </section>
-    <!-- End Our Success Project -->
+    <!-- End Our Success Project Furniture -->
 
-    <!-- Project -->
+    {{-- <!-- Project -->
     <section class="max-w-[1215px] h-full mx-auto lg:mb-20 mb-4 mt-8 lg:mt-12 px-4 lg:px-0">
         <div class="flex flex-col lg:flex-row justify-between px-2 items-center">
             <h1 class="text-[30px] lg:text-[50px] text-[#012840] leading-none font-medium">Our Project Have Done
@@ -277,7 +305,7 @@
             class="bg-[#008FFF] hover:bg-blue-600 text-white px-12 rounded-[10px] w-full mt-4 text-[18px] h-[52px] lg:hidden">Explore
             More +</button>
     </section>
-    <!-- End Project -->
+    <!-- End Project --> --}}
 
     <!-- Testimonial slider -->
     <section class="max-w-[1215px] h-full mx-auto mb-10 lg:mb-20 px-4 lg:px-0">

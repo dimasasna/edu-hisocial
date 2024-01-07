@@ -50,7 +50,7 @@ const MENU_TOOLBAR = [
 ]
 
 MENU_PORTOFOLIO.forEach( function(menu) {
-    menu.addEventListener('mouseenter', () => {
+    menu.addEventListener('click', () => {
         TOOLBAR.style = "opacity: 1"
 
         MENU_TOOLBAR.forEach( toolbar => {
@@ -60,9 +60,6 @@ MENU_PORTOFOLIO.forEach( function(menu) {
         })
     })
 
-    menu.addEventListener('mouseleave', () => {
-        TOOLBAR.style = "opacity: 0"
-    })
 });
 
 
