@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ShowPortofolio;
+use App\Http\Controllers\TestimonialController;
 use App\Models\Portfolio;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
@@ -40,6 +41,7 @@ Route::delete('/register/{user}', [RegisterController::class,'destroy']);
 Route::resource('/dashboard/category', CategoryController::class)->middleware('auth');
 
 Route::resource('/dashboard/portfolio', PortfolioController::class)->middleware('auth');
+Route::resource('/dashboard/testimonial', TestimonialController::class)->middleware('auth');
 
 Route::get('/contact', function () {
     return view('contact',[

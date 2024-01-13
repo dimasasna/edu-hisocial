@@ -95,10 +95,13 @@ class PortfolioController extends Controller
 
         $portfolio = Portfolio::where('id', $portfolio->id)->first();
 
-        $validatedData['image'] = $request->file('image')->store('images');
-
-        if ($portfolio->image) {
-            Storage::delete($portfolio->image);
+        if ($request->hasFile('image')) {
+            $validatedData['image'] = $request->file('image')->store('images');
+            if ($portfolio->image) {
+                Storage::delete($portfolio->image);
+            }
+        } else {
+            $validatedData['image'] = $portfolio->image;
         }
 
         if ($portfolio) {

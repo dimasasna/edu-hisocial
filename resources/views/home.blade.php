@@ -96,47 +96,47 @@
         <div class="flex flex-row justify-between lg:mt-14 mt-8 gap-10">
             <img class="w-50% hidden lg:block" src="assets/img/several-service.png" alt="">
             <div class="lg:w-[50%] w-full">
-                <a href="/service/media-social-management"><div
-                    class="w-full h-auto flex flex-row justify-start items-center gap-6 bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] p-4 mb-4 rounded-[15px] cursor-pointer">
+                <a class="group" href="/service/media-social-management"><div
+                    class="w-full h-auto flex flex-row justify-start items-center gap-6 bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] p-4 mb-4 rounded-[15px] cursor-pointer group-hover:bg-[#008FFF]">
                     <div
-                        class="bg-[#008FFF] rounded-full h-[40px] w-[40px] lg:h-[68px] lg:w-[68px] flex items-center justify-center text-white">
-                        <h1 class="text-center lg:text-[24px]">01.</h1>
+                        class="bg-[#008FFF] rounded-full h-[40px] w-[40px] lg:h-[68px] lg:w-[68px] flex items-center justify-center text-white group-hover:bg-white">
+                        <h1 class="text-center lg:text-[24px] group-hover:text-black">01.</h1>
                     </div>
-                    <h1 class="lg:text-[30px] text-[18px] font-semibold text-[#012A42]">Social Media Management</h1>
+                    <h1 class="lg:text-[30px] text-[18px] font-semibold text-[#012A42] group-hover:text-white">Social Media Marketing</h1>
                 </div></a>
-                <a href="/service/branding-identity-visual"><div
-                    class="w-full h-auto flex flex-row justify-start items-center gap-6 bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] p-4 mb-4 rounded-[15px]">
+                <a class="group" href="/service/branding-identity-visual"><div
+                    class="w-full h-auto flex flex-row justify-start items-center gap-6 bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] p-4 mb-4 rounded-[15px] group-hover:bg-[#008FFF]">
                     <div
-                        class="bg-[#008FFF] rounded-full w-[40px] h-[40px] lg:h-[68px] lg:w-[68px] flex items-center justify-center text-white">
-                        <h1 class="text-center lg:text-[24px]">02.</h1>
+                        class="bg-[#008FFF] rounded-full w-[40px] h-[40px] lg:h-[68px] lg:w-[68px] flex items-center justify-center text-white group-hover:bg-white">
+                        <h1 class="text-center lg:text-[24px] group-hover:text-black">02.</h1>
                     </div>
-                    <h1 class="lg:text-[30px] text-[18px] font-semibold text-[#012A42]">Branding Indentity Visual
+                    <h1 class="lg:text-[30px] text-[18px] font-semibold text-[#012A42] group-hover:text-white">Branding Indentity Visual
                     </h1>
                 </div></a>
-                <a href="/service/logo-branding-identity"><div
-                    class="w-full h-auto flex flex-row justify-start items-center gap-6 bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] p-4 mb-4 rounded-[15px]">
+                <a class="group" href="/service/logo-branding-identity"><div
+                    class="w-full h-auto flex flex-row justify-start items-center gap-6 bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] p-4 mb-4 rounded-[15px] group-hover:bg-[#008FFF]">
                     <div
-                        class="bg-[#008FFF] rounded-full w-[40px] h-[40px] lg:h-[68px] lg:w-[68px] flex items-center justify-center text-white">
-                        <h1 class="text-center lg:text-[24px]">03.</h1>
+                        class="bg-[#008FFF] rounded-full w-[40px] h-[40px] lg:h-[68px] lg:w-[68px] flex items-center justify-center text-white group-hover:bg-white">
+                        <h1 class="text-center lg:text-[24px] group-hover:text-black">03.</h1>
                     </div>
-                    <h1 class="text-[18px] lg:text-[30px] font-semibold text-[#012A42]">Logo & Branding Identity
+                    <h1 class="text-[18px] lg:text-[30px] font-semibold text-[#012A42] group-hover:text-white">Logo & Branding Identity
                     </h1>
                 </div></a>
-                <a href="/service/website-system-service"><div
-                    class="w-full h-auto flex flex-row justify-start items-center gap-6 bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] p-4 mb-4 rounded-[15px]">
+                <a class="group" href="/service/website-system-service"><div
+                    class="w-full h-auto flex flex-row justify-start items-center gap-6 bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] p-4 mb-4 rounded-[15px] group-hover:bg-[#008FFF]">
                     <div
-                        class="bg-[#008FFF] rounded-full w-[40px] h-[40px] lg:h-[68px] lg:w-[68px] flex items-center justify-center text-white">
-                        <h1 class="text-center lg:text-[24px]">04.</h1>
+                        class="bg-[#008FFF] rounded-full w-[40px] h-[40px] lg:h-[68px] lg:w-[68px] flex items-center justify-center text-white group-hover:bg-white">
+                        <h1 class="text-center lg:text-[24px] group-hover:text-black">04.</h1>
                     </div>
-                    <h1 class="text-[18px] lg:text-[30px] font-semibold text-[#012A42]">Website & System</h1>
+                    <h1 class="text-[18px] lg:text-[30px] font-semibold text-[#012A42] group-hover:text-white">Website & System</h1>
                 </div></a>
-                <a href="/service/digital-marketing"><div
-                    class="w-full h-auto flex flex-row justify-start items-center gap-6 bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] p-4  rounded-[15px]">
+                <a class="group" href="/service/digital-marketing"><div
+                    class="w-full h-auto flex flex-row justify-start items-center gap-6 bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] p-4  rounded-[15px] group-hover:bg-[#008FFF]">
                     <div
-                        class="bg-[#008FFF] rounded-full w-[40px] h-[40px] lg:h-[68px] lg:w-[68px] flex items-center justify-center text-white">
-                        <h1 class="text-center lg:text-[24px]">05.</h1>
+                        class="bg-[#008FFF] rounded-full w-[40px] h-[40px] lg:h-[68px] lg:w-[68px] flex items-center justify-center text-white group-hover:bg-white">
+                        <h1 class="text-center lg:text-[24px] group-hover:text-black">05.</h1>
                     </div>
-                    <h1 class="text-[18px] lg:text-[30px] font-semibold text-[#012A42]">Digital Marketing Strategy
+                    <h1 class="text-[18px] lg:text-[30px] font-semibold text-[#012A42] group-hover:text-white">Design Interior & Exterior
                     </h1>
                 </div></a>
             </div>
@@ -257,55 +257,6 @@
             More +</button>
     </section>
     <!-- End Our Success Project Furniture -->
-
-    {{-- <!-- Project -->
-    <section class="max-w-[1215px] h-full mx-auto lg:mb-20 mb-4 mt-8 lg:mt-12 px-4 lg:px-0">
-        <div class="flex flex-col lg:flex-row justify-between px-2 items-center">
-            <h1 class="text-[30px] lg:text-[50px] text-[#012840] leading-none font-medium">Our Project Have Done
-            </h1>
-            <button
-                class="bg-[#008FFF] hover:bg-blue-600 text-white px-12 rounded-full text-[18px] h-[52px] hidden lg:block">Explore
-                More +</button>
-        </div>
-        <div class="flex flex-col lg:flex-row lg:mt-8 mt-6 gap-0">
-            <div class="lg:w-[55%]"><img class="w-full object-cover" src="assets/img/home-project1.png" alt="">
-            </div>
-            <div class="lg:w-[45%] bg-[#012840] p-6 lg:p-10 text-white">
-                <h1 class="text-[24px] lg:text-[34px]">Puma Indonesia</h1>
-                <p class="text-[12px] lg:text-[18px] leading-loose tracking-wide mt-4">Maximize Your Sport
-                    Performance & Stay
-                    Stylish w/ PUMA's Latest Collection. Free Shipping. Shop High Quality Shoes, Sports Gear &
-                    Accessories @PUMA Indonesia Official Online Store. </p>
-            </div>
-        </div>
-        <div class="flex flex-col lg:flex-row mt-6 gap-0">
-            <div class="lg:w-[55%] lg:hidden"><img class="w-full" src="assets/img/home-project2.png" alt=""></div>
-            <div class="lg:w-[45%] bg-[#012840] p-6 lg:p-10 text-white">
-                <h1 class="text-[24px] lg:text-[34px]">Fruit & Saladies</h1>
-                <p class="text-[12px] lg:text-[18px] leading-loose tracking-wide mt-4">In common language usage,
-                    fruit normally
-                    means the seed-associated fleshy structures (or produce) of plants that typically are sweet or
-                    sour and edible in the raw state, such as apples, bananas, grapes, lemons, oranges, and
-                    strawberries</p>
-            </div>
-            <div class="lg:w-[55%] hidden lg:block"><img class="w-full" src="assets/img/home-project2.png" alt="">
-            </div>
-        </div>
-        <div class="flex flex-col lg:flex-row mt-6 gap-0">
-            <div class="lg:w-[55%]"><img class="w-full" src="assets/img/home-project3.png" alt=""></div>
-            <div class="lg:w-[45%] bg-[#012840] p-6 lg:p-10 text-white">
-                <h1 class="text-[24px] lg:text-[34px]">Beauty & Health</h1>
-                <p class="text-[12px] lg:text-[18px] leading-loose tracking-wide mt-4">Natural Moisturizing Factors
-                    + Beta Glucan
-                    is a lightweight gel moisturizer designed to provide all-day hydration after just one
-                    application.* It is formulated with natural moisturizing factors,</p>
-            </div>
-        </div>
-        <button
-            class="bg-[#008FFF] hover:bg-blue-600 text-white px-12 rounded-[10px] w-full mt-4 text-[18px] h-[52px] lg:hidden">Explore
-            More +</button>
-    </section>
-    <!-- End Project --> --}}
 
     <!-- Testimonial slider -->
     <section class="max-w-[1215px] h-full mx-auto mb-10 lg:mb-20 px-4 lg:px-0">

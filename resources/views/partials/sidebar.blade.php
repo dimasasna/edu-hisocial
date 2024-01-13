@@ -18,7 +18,14 @@
                     <span class="self-center text-xl font-bold sm:text-2xl whitespace-nowrap ">HiSocial</span>
                 </a>
             </div>
+
             <div class="flex items-center lg:mr-8">
+                <div>
+                    <li
+                        class="text-white rounded-[8px] p-2 w-34 opacity-70 text-[12px] bg-[#008FFF] text-center hover:bg-blue-500 list-none ">
+                        <a href="/">Go To Homepage</a>
+                    </li>
+                </div>
                 <div class="flex items-center ms-3">
                     <div>
                         <button type="button"
@@ -26,10 +33,10 @@
                             aria-expanded="false" data-dropdown-toggle="dropdown-user">
                             <span class="sr-only">Open user menu</span>
                             <div class="relative">
-                            <img class="w-10 h-10 rounded-full"
-                                src="https://flowbite.com/docs/images/people/profile-picture-5.jpg" alt="">
-                            <span
-                                class="bottom-0 left-7 absolute  w-3.5 h-3.5 bg-green-400 border-2 border-white dark:border-gray-800 rounded-full"></span>
+                                <img class="w-10 h-10 rounded-full"
+                                    src="https://flowbite.com/docs/images/people/profile-picture-5.jpg" alt="">
+                                <span
+                                    class="bottom-0 left-7 absolute  w-3.5 h-3.5 bg-green-400 border-2 border-white dark:border-gray-800 rounded-full"></span>
                             </div>
                         </button>
                     </div>
@@ -92,7 +99,7 @@
                         <path
                             d="M6.143 0H1.857A1.857 1.857 0 0 0 0 1.857v4.286C0 7.169.831 8 1.857 8h4.286A1.857 1.857 0 0 0 8 6.143V1.857A1.857 1.857 0 0 0 6.143 0Zm10 0h-4.286A1.857 1.857 0 0 0 10 1.857v4.286C10 7.169 10.831 8 11.857 8h4.286A1.857 1.857 0 0 0 18 6.143V1.857A1.857 1.857 0 0 0 16.143 0Zm-10 10H1.857A1.857 1.857 0 0 0 0 11.857v4.286C0 17.169.831 18 1.857 18h4.286A1.857 1.857 0 0 0 8 16.143v-4.286A1.857 1.857 0 0 0 6.143 10Zm10 0h-4.286A1.857 1.857 0 0 0 10 11.857v4.286c0 1.026.831 1.857 1.857 1.857h4.286A1.857 1.857 0 0 0 18 16.143v-4.286A1.857 1.857 0 0 0 16.143 10Z" />
                     </svg>
-                    <span class="flex-1 ms-3 text-left rtl:text-right whitespace-nowrap">Menu</span>
+                    <span class="flex-1 ms-3 text-left rtl:text-right whitespace-nowrap">Portofolio</span>
                     <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
                         viewBox="0 0 10 6">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -102,20 +109,41 @@
                 <ul id="dropdown-example" class="hidden py-2 space-y-2">
                     <li>
                         <a href="/dashboard/portfolio"
-                            class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100   :text-white   :hover:bg-gray-700">Portfolio</a>
+                            class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100   :text-white   :hover:bg-gray-700">Data
+                            Portofolio</a>
                     </li>
                     <li>
                         <a href="/dashboard/category"
-                            class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100   ">Category</a>
+                            class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100   ">Data
+                            Category</a>
                     </li>
                 </ul>
             </li>
 
             <li>
+                <a href="/dashboard/testimonial"
+                    class="flex items-center p-2 text-gray-900 rounded-lg  :text-white hover:bg-gray-100  :hover:bg-gray-700 group">
+                    <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 group-hover:text-gray-900" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <rect x="0" fill="none" width="25" height="25"></rect>
+                            <g>
+                                <path
+                                    d="M4 3h12c.55 0 1.02.2 1.41.59S18 4.45 18 5v7c0 .55-.2 1.02-.59 1.41S16.55 14 16 14h-1l-5 5v-5H4c-.55 0-1.02-.2-1.41-.59S2 12.55 2 12V5c0-.55.2-1.02.59-1.41S3.45 3 4 3zm11 2H4v1h11V5zm1 3H4v1h12V8zm-3 3H4v1h9v-1z">
+                                </path>
+                            </g>
+                        </g>
+                    </svg>
+                    <span class="flex-1 ms-3 whitespace-nowrap">Testimonial</span>
+                </a>
+            </li>
+            <li>
                 <a href="/register"
                     class="flex items-center p-2 text-gray-900 rounded-lg  :text-white hover:bg-gray-100  :hover:bg-gray-700 group">
                     <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75  :text-gray-400 group-hover:text-gray-900  :group-hover:text-white"
-                        aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                        aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                        viewBox="0 0 20 20">
                         <path d="M5 5V.13a2.96 2.96 0 0 0-1.293.749L.879 3.707A2.96 2.96 0 0 0 .13 5H5Z" />
                         <path
                             d="M6.737 11.061a2.961 2.961 0 0 1 .81-1.515l6.117-6.116A4.839 4.839 0 0 1 16 2.141V2a1.97 1.97 0 0 0-1.933-2H7v5a2 2 0 0 1-2 2H0v11a1.969 1.969 0 0 0 1.933 2h12.134A1.97 1.97 0 0 0 16 18v-3.093l-1.546 1.546c-.413.413-.94.695-1.513.81l-3.4.679a2.947 2.947 0 0 1-1.85-.227 2.96 2.96 0 0 1-1.635-3.257l.681-3.397Z" />

@@ -3,8 +3,10 @@
 @section('container')
     <!-- Hero -->
     <div class="relative">
-        <div class="relative w-[100vw-1px] h-[calc(100vh-74px)] lg:h-[calc(100vh-200px)] xl:h-[calc(100vh-280px)] mx-auto bg-gradient-to-b from-[#75A1FF] to-white">
-
+        <div
+            class="relative w-[100vw-1px] h-[calc(100vh-74px)] lg:h-[calc(100vh-200px)] xl:h-[calc(100vh-280px)] mx-auto bg-gradient-to-b from-[#75A1FF] to-white">
+            <img src="assets/img/portofolio/Background.png" class="absolute w-full h-full object-cover object-center z-10"
+                alt="gambar hero">
             <div
                 class="absolute flex flex-col justify-center h-[80%] px-6 lg:px-0 text-left inset-0 my-auto md:text-center space-y-4 lg:space-y-6 xl:space-y-7 z-20">
                 <h1
@@ -17,233 +19,217 @@
         <div class="hidden lg:block relative px-6 lg:px-0 lg:w-[70%] max-w-[1065px] mx-auto">
             <div
                 class="relative -top-16 z-40 lg:flex w-full max-w-[1065px] h-[109px] bg-white drop-shadow-[0px_5px_20px_rgba(0,0,0,0.15)] lg:rounded-2xl">
-                <button id="menu-portofolio" data-menu="social media management"
-                    class="relative flex-1 w-full h-full p-4 font-normal text-pb-normal-active hover:font-semibold hover:bg-[#ABD9FF] font-inter transition-all rounded-l-2xl border-r hover:after:absolute hover:after:inset-x-0 hover:after:-bottom-[70%] hover:after:mx-auto hover:after:content-[''] hover:after:w-[60px] hover:after:h-[60px] hover:after:rotate-45 hover:after:drop-shadow-none hover:after:bg-[#ABD9FF] after:delay-200 hover:after:z-0">
-                    Social Media<br />Management
-                </button>
-                <button id="menu-portofolio" data-menu="branding identity visual"
-                    class="relative flex-1 w-full h-full p-4 font-normal text-pb-normal-active hover:font-semibold hover:bg-[#ABD9FF] font-inter transition-all hover:after:absolute hover:after:inset-x-0 hover:after:-bottom-[70%] hover:after:mx-auto hover:after:content-[''] hover:after:w-[60px] hover:after:h-[60px] hover:after:rotate-45 hover:after:drop-shadow-none hover:after:bg-[#ABD9FF] after:delay-200 hover:after:z-0 border-r">
-                    Branding Identity<br />Visual
-                </button>
-                <button id="menu-portofolio" data-menu="logo branding identity"
-                    class="relative flex-1 w-full h-full p-4 font-normal text-pb-normal-active hover:font-semibold hover:bg-[#ABD9FF] font-inter transition-all hover:after:absolute hover:after:inset-x-0 hover:after:-bottom-[70%] hover:after:mx-auto hover:after:content-[''] hover:after:w-[60px] hover:after:h-[60px] hover:after:rotate-45 hover:after:drop-shadow-none hover:after:bg-[#ABD9FF] after:delay-200 hover:after:z-0 border-r">
-                    Logo Branding<br />Identity
-                </button>
-                <button id="menu-portofolio" data-menu="website and system"
-                    class="relative flex-1 w-full h-full p-4 font-normal text-pb-normal-active hover:font-semibold hover:bg-[#ABD9FF] font-inter transition-all hover:after:absolute hover:after:inset-x-0 hover:after:-bottom-[70%] hover:after:mx-auto hover:after:content-[''] hover:after:w-[60px] hover:after:h-[60px] hover:after:rotate-45 hover:after:drop-shadow-none hover:after:bg-[#ABD9FF] after:delay-200 hover:after:z-0 border-r">
-                    Website And<br />System
-                </button>
-                <button id="menu-portofolio" data-menu="digital marketing startegy"
-                    class="relative flex-1 w-full h-full p-4 font-normal text-pb-normal-active hover:font-semibold hover:bg-[#ABD9FF] font-inter transition-all hover:after:absolute hover:after:inset-x-0 hover:after:-bottom-[70%] hover:after:mx-auto hover:after:content-[''] hover:after:w-[60px] hover:after:h-[60px] hover:after:rotate-45 hover:after:drop-shadow-none hover:after:bg-[#ABD9FF] after:delay-200 hover:after:z-0 rounded-r-2xl">
-                    Digital Marketing<br />Strategy
-                </button>
+                <div class="h-full w-full">
+                    <button id="button-social" data-menu="socialmediamanagement"
+                        class="section-button relative flex-1 w-full h-full p-4 font-normal text-pb-normal-active hover:font-semibold hover:bg-[#0081E6] font-inter transition-all rounded-l-2xl border-r hover:text-white">
+                        Social Media<br />Marketing
+                    </button>
+                    <div
+                        class="arrow-socialmediamanagement w-20 h-20 border-t-32 border-r-16 border-b-32 border-l-16 border-blue-900 transform rotate-45 bg-[#0081E6] mx-auto mt-[20px] hidden">
+                    </div>
+                </div>
+                <div class="h-full w-full">
+                    <button id="button-branding" data-menu="brandingidentityvisual"
+                        class="section-button relative flex-1 w-full h-full p-4 font-normal text-pb-normal-active hover:font-semibold hover:bg-[#0081E6] font-inter transition-all  border-r hover:text-white">
+                        Branding Identity<br />Visual
+                    </button>
+                    <div
+                        class="arrow-brandingidentityvisual w-20 h-20 border-t-32 border-r-16 border-b-32 border-l-16 border-blue-900 transform rotate-45 bg-[#0081E6] mx-auto mt-[20px] hidden">
+                    </div>
+                </div>
+                <div class="h-full w-full">
+                    <button id="button-logo" data-menu="logobrandingidentity"
+                        class="section-button relative flex-1 w-full h-full p-4 font-normal text-pb-normal-active hover:font-semibold hover:bg-[#0081E6] font-inter transition-all border-r hover:text-white">
+                        Logo Branding<br />Identity
+                    </button>
+                    <div
+                        class="arrow-logobrandingidentity w-20 h-20 border-t-32 border-r-16 border-b-32 border-l-16 border-blue-900 transform rotate-45 bg-[#0081E6] mx-auto mt-[20px] hidden">
+                    </div>
+                </div>
+                <div class="h-full w-full">
+                    <button id="button-website" data-menu="websitesystem"
+                        class="section-button relative flex-1 w-full h-full p-4 font-normal text-pb-normal-active hover:font-semibold hover:bg-[#0081E6] font-inter transition-all border-r hover:text-white">
+                        Website And<br />System
+                    </button>
+                    <div
+                        class="arrow-websitesystem w-20 h-20 border-t-32 border-r-16 border-b-32 border-l-16 border-blue-900 transform rotate-45 bg-[#0081E6] mx-auto mt-[20px] hidden">
+                    </div>
+                </div>
+                <div class="h-full w-full">
+                    <button id="button-digital" data-menu="digitalmarketing"
+                        class="section-button relative flex-1 w-full h-full p-4 font-normal text-pb-normal-active hover:font-semibold hover:bg-[#0081E6] font-inter transition-all border-r hover:text-white">
+                        Digital Marketing<br />Strategy
+                    </button>
+                    <div
+                        class="arrow-digitalmarketing w-20 h-20 border-t-32 border-r-16 border-b-32 border-l-16 border-blue-900 transform rotate-45 bg-[#0081E6] mx-auto mt-[20px] hidden">
+                    </div>
+                </div>
+                <div class="h-full w-full">
+                    <button id="button-design" data-menu="design"
+                        class="section-button relative flex-1 w-full h-full p-4 font-normal text-pb-normal-active hover:font-semibold hover:bg-[#0081E6] font-inter transition-all rounded-r-2xl border-r hover:text-white">
+                        Design Interior &<br />Exterior
+                    </button>
+                    <div
+                        class="arrow-design w-20 h-20 border-t-32 border-r-16 border-b-32 border-l-16 border-blue-900 transform rotate-45 bg-[#0081E6] mx-auto mt-[20px] hidden">
+                    </div>
+                </div>
             </div>
-
-            <div style="opacity: 0;"
-                class="toolbar absolute inset-x-0 -bottom-20 flex justify-center items-center w-full max-w-[1065px] h-[109px] mx-auto px-10 py-4 bg-[#ABD9FF] lg:rounded-2xl transition-all duration-500 z-40">
-                <p class="lg:text-md xl:text-lg text-center font-inter"></p>
+            <div style="opacity: 1;"
+                class="toolbar absolute inset-x-0 -bottom-20 flex justify-center items-center w-full max-w-[1065px] h-[109px] mx-auto px-10 py-4 bg-[#0081E6] lg:rounded-2xl transition-all duration-500 z-40">
+                <p class="texts-socialmediamanagement lg:text-md xl:text-lg text-center text-white font-inter hidden">Where
+                    strategy meets engagement, and your brand's digital narrative unfolds with purpose. Driving both
+                    engagement and conversion.</p>
+                <p class="texts-brandingidentityvisual lg:text-md xl:text-lg text-center text-white font-inter hidden">We
+                    define a visual narrative that speaks volumes about your brand's essence. Ready to convert your Leads
+                    into Prospects.</p>
+                <p class="texts-logobrandingidentity lg:text-md xl:text-lg text-center text-white font-inter hidden">Where
+                    strategy meets engagement, and your brand's digital narrative unfolds with purpose. Driving both
+                    engagement and conversion.</p>
+                <p class="texts-websitesystem lg:text-md xl:text-lg text-center text-white font-inter hidden">From
+                    Sleek-modern to Classic-timeless layouts, we prioritize cleanliness to ensure functionality and positive
+                    UX in your system.</p>
+                <p class="texts-digitalmarketing lg:text-md xl:text-lg text-center text-white font-inter hidden">our service
+                    places a strong emphasis on strategic Multi-channel marketing. We calculate cohesive campaigns for
+                    unified digital presence.</p>
+                <p class="texts-design lg:text-md xl:text-lg text-center text-white font-inter hidden">From contemporary
+                    living spaces to inviting outdoor havens, let HiSocial redefine your interior and exterior experience
+                </p>
             </div>
         </div>
     </div>
     <!-- Akhir Hero -->
 
     <!-- Social Media Management -->
-    <div id="social" class="relative w-full px-5 lg:px-32 xl:px-0 py-8 lg:py-11 lg:mt-14" >
-        <div class="relative max-w-[1215px] w-full mx-auto lg:pb-12 border-b-2">
-            <h1
-                class="text-4xl text-center lg:text-left lg:text-6xl xl:text-7xl font-bold leading-none text-pb-normal-active mb-6">
-                Portofolio</h1>
-            <div class="flex justify-center flex-wrap gap-2 font-thin">
-                <button
-                    class="text-[#012A42] shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-[40px] p-3 hover:bg-black hover:text-white w-full lg:w-[233px] section-button"
-                    data-target="socialmediamanagement" id="button-social" data-tabs-target="#socialmediamanagement">Social Media Management</button>
-                <button
-                    class="text-[#012A42] shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-[40px] p-3 hover:bg-[#012A42] hover:text-white w-full lg:w-[233px] section-button"
-                    data-target="brandingidentityvisual" id="button-branding">Branding Identity Visual</button>
-                <button
-                    class="text-[#012A42] shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-[40px] p-3 hover:bg-[#012A42] hover:text-white w-full lg:w-[233px] section-button"
-                    data-target="logobrandingidentity" id="button-logo">Logo
-                    Branding Identity</button>
-                <button
-                    class="text-[#012A42] shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-[40px] p-3 hover:bg-[#012A42] hover:text-white w-full lg:w-[233px] section-button"
-                    data-target="websitesystem" id="button-website">Website
-                    and System</button>
-                <button
-                    class="text-[#012A42] shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-[40px] p-3 hover:bg-[#012A42] hover:text-white w-full lg:w-[233px] section-button"
-                    data-target="digitalmarketingstrategy" id="button-digital">Digital
-                    Marketing Strategy</button>
-            </div>
+    <div id="social" class="relative w-full px-5 lg:px-32 xl:px-0 py-8 lg:py-11 lg:mt-6">
+        <div class="max-w-[1065px] mx-auto lg:pb-12 border-b-2">
+
             <div id="socialmediamanagement" class="content" role="tabpanel" aria-labelledby="button-social">
                 <div class="grid grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-5 mt-6 lg:mt-8">
-                    <button
-                        class="group rounded-lg lg:rounded-xl row-start-1 col-start-1 col-span-2 lg:col-span-1 overflow-hidden">
-                        <img src="{{ asset('storage/' . $smm[0]->image) }}"
-                            class=" group-hover:scale-105 object-cover object-center transition-all duration-500"
-                            alt="{{ $smm[0]->altimg }}">
-                    </button>
-                    @foreach ($smm->skip(1) as $social)
-                        <button class="group rounded-lg lg:rounded-xl overflow-hidden">
-                            <img src="{{ asset('storage/' . $social->image) }}"
-                                class=" group-hover:scale-110 object-cover object-center transition-all duration-500"
-                                alt="{{ $social->altimg }}">
-                        </button>
+                    @foreach ($smm as $social)
+                        <div class="">
+                            <img src="{{ asset('storage/' . $social->image) }}" alt="">
+                            <p class="text-center mt-4 text-[18px]">{{ $social->description }}</p>
+                        </div>
                     @endforeach
                 </div>
-                <div class="flex justify-center">
-                    <a href="google.com">
-                        <button
-                            class="btn-blue px-6 lg:px-8 lg:py-3 xl:px-10 xl:py-4 mt-8 lg:mt-11 xl:mt-11 font-bold xl:text-xl rounded-full block">More
-                            On Dribble
-                            <span class="">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                    class="inline-block fill-black ml-1 -mt-1 w-4 h-4 p-[2px] bg-white rounded-full">
-                                    <path fill-rule="evenodd"
-                                        d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                            </span>
-                        </button>
-                    </a>
+                <div class="flex flex-row justify-center gap-4">
+                    <button
+                        class="text-white mt-5 lg:mt-10 bg-[#008FFF] hover:bg-blue-600 shadow-3xl rounded-[30px] shadow-blue-400 w-full h-[50px] lg:h-13 lg:w-[263px] flex justify-center items-center font-medium text-[20px]">More
+                        On Dribbble <img class="ml-4" src="assets/icons/arrow-bg.svg" alt=""></button>
+                    <button
+                        class="text-white mt-5 lg:mt-10 bg-[#008FFF] hover:bg-blue-600 shadow-3xl rounded-[30px] shadow-blue-400 w-full h-[50px] lg:h-13 lg:w-[263px] flex justify-center items-center font-medium text-[20px]">More
+                        On Behance <img class="ml-4" src="assets/icons/arrow-bg.svg" alt=""></button>
                 </div>
             </div>
-            <div id="brandingidentityvisual" class="content">
+            <div id="brandingidentityvisual" class="content" role="tabpanel" aria-labelledby="button-branding">
                 <div class="grid grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-5 mt-6 lg:mt-8">
-                    <button
-                        class="group rounded-lg lg:rounded-xl row-start-1 col-start-1 col-span-2 lg:col-span-1 overflow-hidden">
-                        <img src="{{ asset('storage/' . $biv[0]->image) }}"
-                            class="w-full group-hover:scale-105 object-cover object-center transition-all duration-500"
-                            alt="{{ $biv[0]->altimg }}">
-                    </button>
-                    @foreach ($biv->skip(1) as $branding)
-                        <button class="group rounded-lg lg:rounded-xl overflow-hidden">
-                            <img src="{{ asset('storage/' . $branding->image) }}"
-                                class="w-full group-hover:scale-110 object-cover object-center transition-all duration-500"
-                                alt="{{ $branding->altimg }}">
-                        </button>
-                    @endforeach
+                    Branding Identity
                 </div>
-                <div class="flex justify-center">
-                    <a href="google.com">
-                        <button
-                            class="btn-blue px-6 lg:px-8 lg:py-3 xl:px-10 xl:py-4 mt-8 lg:mt-11 xl:mt-11 font-bold xl:text-xl rounded-full block">More
-                            On Dribble
-                            <span class="">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                    class="inline-block fill-black ml-1 -mt-1 w-4 h-4 p-[2px] bg-white rounded-full">
-                                    <path fill-rule="evenodd"
-                                        d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                            </span>
-                        </button>
-                    </a>
+                <div class="flex flex-row justify-center gap-4">
+                    <button
+                        class="text-white mt-5 lg:mt-10 bg-[#008FFF] hover:bg-blue-600 shadow-3xl rounded-[30px] shadow-blue-400 w-full h-[50px] lg:h-13 lg:w-[263px] flex justify-center items-center font-medium text-[20px]">More
+                        On Dribbble <img class="ml-4" src="assets/icons/arrow-bg.svg" alt=""></button>
+                    <button
+                        class="text-white mt-5 lg:mt-10 bg-[#008FFF] hover:bg-blue-600 shadow-3xl rounded-[30px] shadow-blue-400 w-full h-[50px] lg:h-13 lg:w-[263px] flex justify-center items-center font-medium text-[20px]">More
+                        On Behance <img class="ml-4" src="assets/icons/arrow-bg.svg" alt=""></button>
                 </div>
             </div>
-            <div id="logobrandingidentity" class="content">
+            <div id="logobrandingidentity" class="content" role="tabpanel" aria-labelledby="button-logo">
                 <div class="grid grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-5 mt-6 lg:mt-8">
-                    <button
-                        class="group rounded-lg lg:rounded-xl row-start-1 col-start-1 col-span-2 lg:col-span-1 overflow-hidden">
-                        <img src="{{ asset('storage/' . $lbi[0]->image) }}"
-                            class="w-full group-hover:scale-105 object-cover object-center transition-all duration-500"
-                            alt="{{ $lbi[0]->altimg }}">
-                    </button>
-                    @foreach ($lbi->skip(1) as $logo)
-                        <button class="group rounded-lg lg:rounded-xl overflow-hidden">
-                            <img src="{{ asset('storage/' . $logo->image) }}"
-                                class="w-full group-hover:scale-110 object-cover object-center transition-all duration-500"
-                                alt="{{ $logo->altimg }}">
-                        </button>
-                    @endforeach
+                    Logo Branding
                 </div>
-                <div class="flex justify-center">
-                    <a href="google.com">
-                        <button
-                            class="btn-blue px-6 lg:px-8 lg:py-3 xl:px-10 xl:py-4 mt-8 lg:mt-11 xl:mt-11 font-bold xl:text-xl rounded-full block">More
-                            On Dribble
-                            <span class="">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                    class="inline-block fill-black ml-1 -mt-1 w-4 h-4 p-[2px] bg-white rounded-full">
-                                    <path fill-rule="evenodd"
-                                        d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                            </span>
-                        </button>
-                    </a>
+                <div class="flex flex-row justify-center gap-4">
+                    <button
+                        class="text-white mt-5 lg:mt-10 bg-[#008FFF] hover:bg-blue-600 shadow-3xl rounded-[30px] shadow-blue-400 w-full h-[50px] lg:h-13 lg:w-[263px] flex justify-center items-center font-medium text-[20px]">More
+                        On Dribbble <img class="ml-4" src="assets/icons/arrow-bg.svg" alt=""></button>
+                    <button
+                        class="text-white mt-5 lg:mt-10 bg-[#008FFF] hover:bg-blue-600 shadow-3xl rounded-[30px] shadow-blue-400 w-full h-[50px] lg:h-13 lg:w-[263px] flex justify-center items-center font-medium text-[20px]">More
+                        On Behance <img class="ml-4" src="assets/icons/arrow-bg.svg" alt=""></button>
                 </div>
             </div>
-            <div id="websitesystem" class="content">
+            <div id="websitesystem" class="content" role="tabpanel" aria-labelledby="button-website">
                 <div class="grid grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-5 mt-6 lg:mt-8">
-                    <button
-                        class="group rounded-lg lg:rounded-xl row-start-1 col-start-1 col-span-2 lg:col-span-1 overflow-hidden">
-                        <img src="{{ asset('storage/' . $ws[0]->image) }}"
-                            class="w-full group-hover:scale-105 object-cover object-center transition-all duration-500"
-                            alt="{{ $ws[0]->altimg }}">
-                    </button>
-                    @foreach ($ws->skip(1) as $website)
-                        <button class="group rounded-lg lg:rounded-xl overflow-hidden">
-                            <img src="{{ asset('storage/' . $website->image) }}"
-                                class="w-full group-hover:scale-110 object-cover object-center transition-all duration-500"
-                                alt="{{ $website->altimg }}">
-                        </button>
-                    @endforeach
+                    Website System
                 </div>
-                <div class="flex justify-center">
-                    <a href="google.com">
-                        <button
-                            class="btn-blue px-6 lg:px-8 lg:py-3 xl:px-10 xl:py-4 mt-8 lg:mt-11 xl:mt-11 font-bold xl:text-xl rounded-full block">More
-                            On Dribble
-                            <span class="">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                    class="inline-block fill-black ml-1 -mt-1 w-4 h-4 p-[2px] bg-white rounded-full">
-                                    <path fill-rule="evenodd"
-                                        d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                            </span>
-                        </button>
-                    </a>
+                <div class="flex flex-row justify-center gap-4">
+                    <button
+                        class="text-white mt-5 lg:mt-10 bg-[#008FFF] hover:bg-blue-600 shadow-3xl rounded-[30px] shadow-blue-400 w-full h-[50px] lg:h-13 lg:w-[263px] flex justify-center items-center font-medium text-[20px]">More
+                        On Dribbble <img class="ml-4" src="assets/icons/arrow-bg.svg" alt=""></button>
+                    <button
+                        class="text-white mt-5 lg:mt-10 bg-[#008FFF] hover:bg-blue-600 shadow-3xl rounded-[30px] shadow-blue-400 w-full h-[50px] lg:h-13 lg:w-[263px] flex justify-center items-center font-medium text-[20px]">More
+                        On Behance <img class="ml-4" src="assets/icons/arrow-bg.svg" alt=""></button>
                 </div>
             </div>
-            <div id="digitalmarketingstrategy" class="content">
+            <div id="digitalmarketing" class="content" role="tabpanel" aria-labelledby="button-digital">
                 <div class="grid grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-5 mt-6 lg:mt-8">
-                    <button
-                        class="group rounded-lg lg:rounded-xl row-start-1 col-start-1 col-span-2 lg:col-span-1 overflow-hidden">
-                        <img src="{{ asset('storage/' . $dms[0]->image) }}"
-                            class="w-full group-hover:scale-105 object-cover object-center transition-all duration-500"
-                            alt="{{ $dms[0]->altimg }}">
-                    </button>
-                    @foreach ($dms->skip(1) as $marketing)
-                        <button class="group rounded-lg lg:rounded-xl overflow-hidden">
-                            <img src="{{ asset('storage/' . $marketing->image) }}"
-                                class="w-full group-hover:scale-110 object-cover object-center transition-all duration-500"
-                                alt="{{ $marketing->altimg }}">
-                        </button>
-                    @endforeach
+                    Digital Marketing
                 </div>
-                <div class="flex justify-center">
-                    <a href="google.com">
-                        <button
-                            class="btn-blue px-6 lg:px-8 lg:py-3 xl:px-10 xl:py-4 mt-8 lg:mt-11 xl:mt-11 font-bold xl:text-xl rounded-full block">More
-                            On Dribble
-                            <span class="">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                    class="inline-block fill-black ml-1 -mt-1 w-4 h-4 p-[2px] bg-white rounded-full">
-                                    <path fill-rule="evenodd"
-                                        d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                            </span>
-                        </button>
-                    </a>
+                <div class="flex flex-row justify-center gap-4">
+                    <button
+                        class="text-white mt-5 lg:mt-10 bg-[#008FFF] hover:bg-blue-600 shadow-3xl rounded-[30px] shadow-blue-400 w-full h-[50px] lg:h-13 lg:w-[263px] flex justify-center items-center font-medium text-[20px]">More
+                        On Dribbble <img class="ml-4" src="assets/icons/arrow-bg.svg" alt=""></button>
+                    <button
+                        class="text-white mt-5 lg:mt-10 bg-[#008FFF] hover:bg-blue-600 shadow-3xl rounded-[30px] shadow-blue-400 w-full h-[50px] lg:h-13 lg:w-[263px] flex justify-center items-center font-medium text-[20px]">More
+                        On Behance <img class="ml-4" src="assets/icons/arrow-bg.svg" alt=""></button>
+                </div>
+            </div>
+            <div id="design" class="content" role="tabpanel" aria-labelledby="button-design">
+                <div class="grid grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-5 mt-6 lg:mt-8">
+                    Design Interior & Exterior
+                </div>
+                <div class="flex flex-row justify-center gap-4">
+                    <button
+                        class="text-white mt-5 lg:mt-10 bg-[#008FFF] hover:bg-blue-600 shadow-3xl rounded-[30px] shadow-blue-400 w-full h-[50px] lg:h-13 lg:w-[263px] flex justify-center items-center font-medium text-[20px]">More
+                        On Dribbble <img class="ml-4" src="assets/icons/arrow-bg.svg" alt=""></button>
+                    <button
+                        class="text-white mt-5 lg:mt-10 bg-[#008FFF] hover:bg-blue-600 shadow-3xl rounded-[30px] shadow-blue-400 w-full h-[50px] lg:h-13 lg:w-[263px] flex justify-center items-center font-medium text-[20px]">More
+                        On Behance <img class="ml-4" src="assets/icons/arrow-bg.svg" alt=""></button>
                 </div>
             </div>
         </div>
     </div>
     <!-- Akhir Social Media Management -->
 
-     <!-- Contact Admin -->
-     <section class="max-w-[1215px] mx-auto mt-8 px-4 lg:px-0">
+    <!-- Testimonial -->
+    <section class="mx-auto mb-20 mt-8 px-4 lg:px-0 bg-cover py-12"
+        style="background-image: url('assets/img/portofolio/Background-blur.png');">
+        <div class="flex flex-row gap-1 mx-auto w-fit">
+            <img class="w-10" src="assets/icons/arrow-service.svg" alt="">
+            <h1 class="text-[32px] font-extrabold">Testimonial</h1>
+        </div>
+        <h1 class="text-[48px] w-fit mx-auto">What our Happy Client say.</h1>
+        <div class="swiper swiper-porto">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide w-fit mx-auto mt-6 flex flex-col justify-center items-center gap-6">
+                    <img class="w-[300px]" src="assets/icons/star.svg" alt="">
+                    <p class="text-[24px] w-[794px] text-center">HiSocial has elevated our online presence with strategic
+                        social media management. Their data-driven approach in crafting content has significantly increased
+                        our
+                        customer engagement.</p>
+                    <img class="mt-6" src="assets/img/profil-testi.png" alt="">
+                    <h1 class="text-[24px] text-[#008FFF] font-medium mt-6">Alicia Moelemar - CEO of Quantum Innovations
+                    </h1>
+                </div>
+                <div class="swiper-slide w-fit mx-auto mt-6 flex flex-col justify-center items-center gap-6">
+                    <img class="w-[300px]" src="assets/icons/star.svg" alt="">
+                    <p class="text-[24px] w-[794px] text-center">HiSocial has elevated our online presence with strategic
+                        social media management. Their data-driven approach in crafting content has significantly increased
+                        our
+                        customer engagement.</p>
+                    <img class="mt-6" src="assets/img/profil-testi.png" alt="">
+                    <h1 class="text-[24px] text-[#008FFF] font-medium mt-6">Alicia Moelemar - CEO of Quantum Innovations
+                    </h1>
+                </div>
+            </div>
+            <div class="mt-14">
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir Testimonial -->
+
+    <!-- Contact Admin -->
+    <section class="max-w-[1215px] mx-auto mt-8 px-4 lg:px-0">
         <div class="w-full rounded-[20px]  bg-[#002B4C] text-white relative">
             <div
                 class="h-full w-[221px] bg-[#187CFF] z-0 right-0 absolute rounded-l-[100px] object-cover rounded-r-[20px] hidden lg:block">
@@ -255,7 +241,8 @@
                 <div
                     class="lg:w-[50%] w-full flex justify-center mt-6 lg:mt-0 lg:justify-end mr-20 items-center text-black">
                     <button
-                        class="bg-white hover:bg-slate-200 px-12 py-2 rounded-[74px] lg:text-[24px] font-medium">Contact Our Team</button>
+                        class="bg-white hover:bg-slate-200 px-12 py-2 rounded-[74px] lg:text-[24px] font-medium">Contact
+                        Our Team</button>
                 </div>
 
             </div>
@@ -264,23 +251,52 @@
     </section>
     <!-- End Contact Admin -->
 
-
-
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script type="module">
+        import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
+        const swiper1 = new Swiper('.swiper-porto', {
+            spaceBetween: 70,
+            slidesPerView: 1,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+        });
+
         $(document).ready(function() {
             $(".content").hide();
             $("#socialmediamanagement").show();
-            $("#button-social").addClass("bg-[#012A42]");
+            $(".arrow-socialmediamanagement").show();
+            $(".texts-socialmediamanagement").show();
+            $("#button-social").addClass("bg-[#0081E6]");
             $("#button-social").addClass("text-white");
+
             $(".section-button").click(function() {
-                var target = $(this).data("target");
+                var target = $(this).data("menu");
+
+                // Semua arrow terkait disembunyikan
+                $("[class^='arrow-']").hide();
+                $("[class^='texts-']").hide();
+
+                // Semua content disembunyikan dan warna tombol dikembalikan ke keadaan awal
                 $(".content").hide();
-                $(".section-button").removeClass("bg-[#012A42]");
+                $(".section-button").removeClass("bg-[#0081E6]");
                 $(".section-button").removeClass("text-white");
+
+                // Menunjukkan arrow dan content yang sesuai dengan button yang diklik
                 $("#" + target).show();
-                $(this).addClass("bg-[#012A42]");
+                $(this).addClass("bg-[#0081E6]");
                 $(this).addClass("text-white");
+                $(".arrow-" + target).show();
+                $(".texts-" + target).show();
             });
         });
     </script>
