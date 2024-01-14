@@ -200,26 +200,15 @@
         <h1 class="text-[48px] w-fit mx-auto">What our Happy Client say.</h1>
         <div class="swiper swiper-porto">
             <div class="swiper-wrapper">
+                @foreach ($testimonials as $testi)
                 <div class="swiper-slide w-fit mx-auto mt-6 flex flex-col justify-center items-center gap-6">
                     <img class="w-[300px]" src="assets/icons/star.svg" alt="">
-                    <p class="text-[24px] w-[794px] text-center">HiSocial has elevated our online presence with strategic
-                        social media management. Their data-driven approach in crafting content has significantly increased
-                        our
-                        customer engagement.</p>
-                    <img class="mt-6" src="assets/img/profil-testi.png" alt="">
-                    <h1 class="text-[24px] text-[#008FFF] font-medium mt-6">Alicia Moelemar - CEO of Quantum Innovations
+                    <p class="text-[24px] w-[794px] text-center mb-6">{{ $testi->comment }}</p>
+                    <img class="w-[160px] h-[160px] rounded-full mb-6" src="{{ asset('storage/' . $testi->image_testi) }}" alt="">
+                    <h1 class="text-[24px] text-[#008FFF] font-medium">{{ $testi->name }}
                     </h1>
                 </div>
-                <div class="swiper-slide w-fit mx-auto mt-6 flex flex-col justify-center items-center gap-6">
-                    <img class="w-[300px]" src="assets/icons/star.svg" alt="">
-                    <p class="text-[24px] w-[794px] text-center">HiSocial has elevated our online presence with strategic
-                        social media management. Their data-driven approach in crafting content has significantly increased
-                        our
-                        customer engagement.</p>
-                    <img class="mt-6" src="assets/img/profil-testi.png" alt="">
-                    <h1 class="text-[24px] text-[#008FFF] font-medium mt-6">Alicia Moelemar - CEO of Quantum Innovations
-                    </h1>
-                </div>
+                @endforeach
             </div>
             <div class="mt-14">
                 <div class="swiper-pagination"></div>
@@ -265,10 +254,7 @@
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
             },
-            autoplay: {
-                delay: 2500,
-                disableOnInteraction: false,
-            },
+
         });
 
         $(document).ready(function() {

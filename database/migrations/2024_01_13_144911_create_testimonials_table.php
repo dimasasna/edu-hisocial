@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('image_testi')->nullable();
-            $table->string('comment');
+            $table->text('comment');
             $table->timestamps();
         });
     }

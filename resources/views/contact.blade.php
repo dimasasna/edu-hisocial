@@ -89,7 +89,7 @@
                 </ul>
             </div>
         </div>
-        <div class="space-y-3 lg:space-y-6">
+        {{-- <div class="space-y-3 lg:space-y-6">
             <h1 class="text-lg lg:text-2xl xl:text-3xl">Contact Us</h1>
             <form action="" class="w-full text-center space-y-4 lg:space-y-6">
                 <section class="flex flex-col lg:flex-row gap-4 lg:gap-6 w-full">
@@ -131,7 +131,7 @@
                 <textarea class="w-full min-h-[140px] lg:min-h-[280px] border lg:border-2 px-4 py-2 text-md lg:px-6 lg:py-3 xl:px-7 xl:py-4 rounded-lg focus:outline-blue-300" placeholder="Your Project Details"></textarea>
                 <button class="btn-blue lg:text-lg xl:text-x px-10 py-3 l lg:px-14 lg:py-3 xl:px-16 xl:py-4 font-semibold bg-[#008FFF] rounded-full">Send Message</button>
             </form>
-        </div>
+        </div> --}}
     </div>
 </div>
 <!-- Akhir Contact -->

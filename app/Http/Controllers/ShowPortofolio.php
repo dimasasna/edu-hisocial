@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Portfolio;
+use App\Models\Testimonial;
 use Illuminate\Http\Request;
 
 class ShowPortofolio extends Controller
@@ -27,6 +28,7 @@ class ShowPortofolio extends Controller
             'dms' => Portfolio::whereHas('category', function ($query) {
                 $query->where('name', 'Digital Marketing Strategy');
             })->get(),
+            'testimonials' => Testimonial::all()
         ]);
     }
 }

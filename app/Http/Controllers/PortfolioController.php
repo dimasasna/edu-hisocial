@@ -57,7 +57,11 @@ class PortfolioController extends Controller
             'image' => 'image'
         ]);
 
-        $validatedData['image'] = $request->file('image')->store('images');
+        if ($request->hasFile('image')) {
+            $validatedData['image'] = $request->file('image')->store('images');
+        } else {
+            $validatedData['image'] = null;
+        }
 
         Portfolio::create($validatedData);
 

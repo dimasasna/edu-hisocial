@@ -36,10 +36,14 @@ class TestimonialController extends Controller
         $validatedData = $request->validate([
             'name' => 'required|min:3|max:255',
             'comment' => 'required',
-            'image_testi' => 'image'
+            'image_testi' => 'image|nullable'
         ]);
 
-        $validatedData['image_testi'] = $request->file('image_testi')->store('images_testi');
+        if ($request->hasFile('image_testi')) {
+            $validatedData['image_testi'] = $request->file('image_testi')->store('images_testi');
+        } else {
+            $validatedData['image_testi'] = null;
+        }
 
         Testimonial::create($validatedData);
 
@@ -71,7 +75,7 @@ class TestimonialController extends Controller
         $validatedData = $request->validate([
             'name' => 'required|min:3|max:255',
             'comment' => 'required',
-            'image_testi' => 'image'
+            'image_testi' => 'image|nullable'
         ]);
 
         $testimonial = Testimonial::where('id', $testimonial->id)->first();

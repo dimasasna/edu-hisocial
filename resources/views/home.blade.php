@@ -266,18 +266,18 @@
         </div>
         <div class="flex flex-row justify-between lg:mt-12 mt-4 swiper swiper-home">
             <div class="swiper-wrapper py-4 w-full h-full">
+                @foreach ($testimonials as $testi)
                 <div
                     class="w-full h-full rounded-[20px] shadow-[0_3px_10px_rgb(0,0,0,0.2)] flex flex-col lg:flex-row justify-start items-center lg:items-start swiper-slide">
-                    <img class="p-6 lg:p-0 w-52 lg:w-full" src="assets/img/testi-profil1.png" alt="">
+                    <img class="p-6 lg:p-0 !w-[170px] !h-[170px] rounded-s-[20px] lg:w-full" src="{{ asset('storage/' . $testi->image_testi) }}" alt="">
                     <div class="p-6">
                         <img src="assets/icons/kutip.svg" alt="">
-                        <p class="text-[14px] lg:text-[16px] font-thin mt-4">Increase sales, can reach a wider
-                            market area. from studying
-                            advertising until the content is told so you understand better how to take care of the
-                            brand 🫶🏻</p>
+                        <p class="text-[14px] lg:text-[16px] font-thin mt-4">{{ $testi->comment }}</p>
                     </div>
                 </div>
-                <div
+                @endforeach
+
+                {{-- <div
                     class="w-full h-full rounded-[20px] shadow-[0_3px_10px_rgb(0,0,0,0.2)] flex flex-col lg:flex-row justify-start items-center lg:items-start swiper-slide">
                     <img class="p-6 lg:p-0 w-52 lg:w-full" src="assets/img/testi-profil2.png" alt="">
                     <div class="p-6">
@@ -309,7 +309,7 @@
                             advertising until the content is told so you understand better how to take care of the
                             brand.</p>
                     </div>
-                </div>
+                </div> --}}
             </div>
             <div class="swiper-button-next rounded-full "></div>
             <div class="swiper-button-prev rounded-full "></div>
