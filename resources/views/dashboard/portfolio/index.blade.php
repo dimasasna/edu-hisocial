@@ -43,7 +43,7 @@
             <div class="relative w-full  flex items-center h-auto">
                 <select id="countries" name="search_category"
                     class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
-                    <option selected disabled>Filter By Category</option>
+                    <option selected disabled hidden>Filter By Category</option>
                     @foreach ($categories as $category)
                         <option value="{{ $category->id }}">{{ $category->name }}</option>
                     @endforeach

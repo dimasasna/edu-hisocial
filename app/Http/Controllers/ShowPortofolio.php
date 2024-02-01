@@ -14,7 +14,7 @@ class ShowPortofolio extends Controller
             'title' => 'Portofolio',
             'logo' => 'assets/img/logo-hisocial.png',
             'smm' => Portfolio::whereHas('category', function ($query) {
-                $query->where('name', 'Social Media Management');
+                $query->where('name', 'Social Media Marketing');
             })->get(),
             'biv' => Portfolio::whereHas('category', function ($query) {
                 $query->where('name', 'Branding Identity Visual');
@@ -25,8 +25,8 @@ class ShowPortofolio extends Controller
             'ws' => Portfolio::whereHas('category', function ($query) {
                 $query->where('name', 'Website & System Service');
             })->get(),
-            'dms' => Portfolio::whereHas('category', function ($query) {
-                $query->where('name', 'Digital Marketing Strategy');
+            'di' => Portfolio::whereHas('category', function ($query) {
+                $query->where('name', 'Design Interior & Exterior');
             })->get(),
             'testimonials' => Testimonial::all()
         ]);
